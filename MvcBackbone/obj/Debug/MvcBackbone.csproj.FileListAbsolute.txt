@@ -1,0 +1,5 @@
+c:\Projects\MvcBackbone\MvcBackbone\MvcBackbone\bin\MvcBackbone.dll
+c:\Projects\MvcBackbone\MvcBackbone\MvcBackbone\bin\MvcBackbone.pdb
+c:\Projects\MvcBackbone\MvcBackbone\MvcBackbone\obj\Debug\ResolveAssemblyReference.cache
+c:\Projects\MvcBackbone\MvcBackbone\MvcBackbone\obj\Debug\MvcBackbone.dll
+c:\Projects\MvcBackbone\MvcBackbone\MvcBackbone\obj\Debug\MvcBackbone.pdb
