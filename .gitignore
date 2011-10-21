@@ -1,0 +1,7 @@
+*.dll
+*.pdb
+*.suo
+/TestResults
+/obj
+!/packages/*/lib/*.dll
+!/packages/*/lib/*/*.dll
