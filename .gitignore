@@ -5,3 +5,6 @@
 /obj
 !/packages/*/lib/*.dll
 !/packages/*/lib/*/*.dll
+*.suo
+*.user
+/_ReSharper.MvcBackbone

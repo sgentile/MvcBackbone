@@ -40,17 +40,19 @@ TodoFormView = Backbone.View.extend({
 		this.template = $("#formTemplate");
 	},
 	events: {
-		"submit #todo-form": "save"
+		"keypress #new-todo": "save"
 	},
 	render: function () {
 		var content = this.template.tmpl();
 		$(this.el).html(content);
 		return this;
 	},
-	save: function () {
+	save: function (e) {
+		if (e.which != 13)
+			return;
 		var val = this.$("input").val();
 		var model = new Todo({ content: val });
-		model.save();
+		todos.create(model);
 		this.$("input").val('');
 	}
 });
